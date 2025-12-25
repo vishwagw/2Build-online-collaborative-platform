@@ -1,0 +1,14 @@
+{
+  "name": "2-build",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
+    "client:dev": "cd frontend && npm run dev",
+    "client:build": "cd frontend && npm run build"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
